@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage> {
         scrolledUnderElevation: 0,
         centerTitle: true,
         title: Text(
-          "Gurukrupa Traders",
+          "GREEN ENERGY",
           style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,

@@ -15,14 +15,13 @@ Future<void> generateInvoicePdf(Invoice invoice) async {
         return pw.Column(
           crossAxisAlignment: pw.CrossAxisAlignment.start,
           children: [
-            pw.Text('GURUKRUPA TRADERS',
+            pw.Text('Green Energy',
                 style:
                     pw.TextStyle(fontSize: 24, fontWeight: pw.FontWeight.bold)),
             pw.SizedBox(height: 10),
             pw.Text(
                 'PLOT NO. 47/11, PREMISES OF MANGALAM FOOD, SAIKHEDA ROAD, MIDC AREA, SHINDE NASHIK - 422102'),
-            pw.Text(
-                'CONTACT NO: 9422222408, 95522662888 EMAIL: gurukrupa.traders@gmail.com'),
+            pw.Text('CONTACT NO: 95522662777 EMAIL: greenenergy@gmail.com'),
             pw.SizedBox(height: 20),
             pw.Row(
               mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
@@ -129,7 +128,7 @@ Future<void> generateInvoicePdf(Invoice invoice) async {
                 'Total in Words: Three Lakh Ninety Eight Thousand Eight Hundred Forty Only.'),
             pw.SizedBox(height: 20),
             pw.Text('Bank Details: HDFC BANK, THATTE NAGAR NASHIK'),
-            pw.Text('Account Number: 00642020005547'),
+            pw.Text('Account Number: 006420200057'),
             pw.Text('IFSC Code: HDFC 0000064'),
             pw.SizedBox(height: 20),
             pw.Text('Terms and Conditions:'),

@@ -89,7 +89,7 @@ class QuotationPreviewScreen extends StatelessWidget {
           pw.Padding(
             padding: const pw.EdgeInsets.only(top: 10.0),
             child: pw.Text(
-              "GURUKRUPA TRADERS",
+              "GREEN ENERGY",
               style: pw.TextStyle(fontWeight: pw.FontWeight.bold, fontSize: 17),
             ),
           ),
@@ -102,7 +102,7 @@ class QuotationPreviewScreen extends StatelessWidget {
           ),
           pw.Center(
             child: pw.Text(
-              'CONTACT NO: 9422222408, 95522662888 EMAIL: gurukrupa.traders@gmail.com',
+              'CONTACT NO: 95522662777 EMAIL: greenenergy@gmail.com',
               style: pw.TextStyle(fontSize: 7),
             ),
           ),
@@ -110,7 +110,7 @@ class QuotationPreviewScreen extends StatelessWidget {
             padding: const pw.EdgeInsets.only(top: 2.0),
             child: pw.Center(
               child: pw.Text(
-                "GSTN : 27AHUPB8856A1Z4",
+                "GSTN : 27AHUPB8856A1",
                 style: pw.TextStyle(fontSize: 7),
               ),
             ),
@@ -320,10 +320,10 @@ class QuotationPreviewScreen extends StatelessWidget {
                               style: pw.TextStyle(fontSize: 7),
                             ),
                             pw.Text(
-                                'Account Number                :   CURRENT A/C NO: 00642020005547',
+                                'Account Number                :   CURRENT A/C NO: 00642020005',
                                 style: pw.TextStyle(fontSize: 7)),
                             pw.Text(
-                                'IFSC Code                         :   HDFC 0000064',
+                                'IFSC Code                         :   HDFC 0000065',
                                 style: pw.TextStyle(fontSize: 7)),
                           ],
                         ),
@@ -542,7 +542,7 @@ class QuotationPreviewScreen extends StatelessWidget {
                         pw.SizedBox(height: 5),
                         pw.Center(
                           child: pw.Text(
-                            "For                      GURUKRUPA TRADERS ",
+                            "For                      GREEN ENERGY ",
                             style: pw.TextStyle(
                                 fontWeight: pw.FontWeight.bold, fontSize: 7),
                           ),

@@ -82,13 +82,20 @@ class _EditQuotationScreenState extends State<EditQuotationScreen> {
     final sgstPercent = double.tryParse(_sgstController.text) ?? 0;
     final igstPercent = double.tryParse(_igstController.text) ?? 0;
 
-    _cgstAmount = _taxableAmount * (cgstPercent / 100);
-    _sgstAmount = _taxableAmount * (sgstPercent / 100);
-    _igstAmount = _taxableAmount * (igstPercent / 100);
+    _cgstAmount = _roundToTwo(_taxableAmount * (cgstPercent / 100));
+    _sgstAmount = _roundToTwo(_taxableAmount * (sgstPercent / 100));
+    _igstAmount = _roundToTwo(_taxableAmount * (igstPercent / 100));
 
-    _totalAmount = _taxableAmount + _cgstAmount + _sgstAmount + _igstAmount;
+    // Calculate total amount and round to the nearest integer
+    _totalAmount =
+        (_taxableAmount + _cgstAmount + _sgstAmount + _igstAmount).round() +
+            0.00;
 
     setState(() {}); // Update the UI
+  }
+
+  double _roundToTwo(double value) {
+    return double.parse(value.toStringAsFixed(2));
   }
 
   Future<void> _selectDate(BuildContext context) async {
